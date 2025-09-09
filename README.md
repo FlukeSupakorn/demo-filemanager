@@ -45,39 +45,25 @@ A modern desktop file manager built with Tauri, React, and TypeScript. This demo
 
 2. **Install Rust**:
    ```powershell
-   # Download and run rustup-init.exe from https://rustup.rs/
-   # Or use winget:
+   # Run in PowerShell
    winget install Rustlang.Rustup
+   # After install, restart your terminal and verify
+   rustc --version
+   cargo --version
    ```
-
-3. **Install WebView2** (usually pre-installed on Windows 10/11):
-   - Download from: https://developer.microsoft.com/en-us/microsoft-edge/webview2/
-
-### macOS/Linux Setup
-
-```bash
-# Install Rust via rustup
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-### Linux Dependencies
-```bash
-# Ubuntu/Debian
-sudo apt update
-sudo apt install libwebkit2gtk-4.1-dev build-essential curl wget file \
-  libssl-dev libayatana-appindicator3-dev librsvg2-dev
-
-# Fedora
-sudo dnf install webkit2gtk4.1-devel openssl-devel
-```
-
+2. **Install Node.js**:
+   ```powershell
+   # Run in PowerShell
+   npm install -g pnpm
+   npm -v
+   ```
 ## Quick Start for Windows
 
 ```powershell
 # 1. First, install Visual Studio Build Tools 2022 (see Prerequisites above)
 
 # 2. Clone and enter the project
-git clone https://github.com/yourusername/demo-filemanager.git
+git clone https://github.com/FlukeSupakorn/demo-filemanager.git
 cd demo-filemanager
 
 # 3. Install dependencies
@@ -85,19 +71,6 @@ npm install
 
 # 4. Run the app in development mode
 npm run tauri:dev
-```
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/demo-filemanager.git
-cd demo-filemanager
-```
-
-2. Install dependencies:
-```bash
-npm install
 ```
 
 ## Development
