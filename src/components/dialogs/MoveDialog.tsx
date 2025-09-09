@@ -1,0 +1,1 @@
+export { MoveDialog } from './index';
